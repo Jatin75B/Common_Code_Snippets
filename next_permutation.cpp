@@ -22,7 +22,7 @@ public:
                 swap(nums[i],nums[index]);
                 break;
             }
-        }
+        }//changes
         
         reverse(nums.begin()+index+1,nums.end());
     }
